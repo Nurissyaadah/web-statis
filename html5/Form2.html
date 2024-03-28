@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data Siswa</title>
+    <link rel="shortcut icon" href="image/wa.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Formulir Data Siswa</h1>
+    <form action="#" method="get" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Data Pribadi</legend> 
+          <div>
+              <label for="">Nama Lengkap</label>
+              <input type="text" name="nama" required autofocus>
+          </div>
+          <div>
+               <label for="">Jenis Kelamin</label>
+               <input type="radio" name="jk" value="Laki-Laki" required>Laki-Laki
+               <input type="radio" name="jk" value="Perempuan" required>Perempuan
+          </div>
+          <div>
+               <label for="">Alamat</label>
+               <textarea name="alamat" cols="50" rows="8"></textarea>
+          </div>
+
+               <label for="">Tempat, Tanggal Lahir</label>
+               <input type="text" name="tempat_lahir">
+               <input type="date" name="tanggal_lahir">
+          </div>
+          </fieldset>
+          <div>
+            <label for="">Jurusan</label>
+            <select name="jurusan" required>
+                 <option value="">-Pilih Jurusan-</option>
+                 <option value="Tata Busana">Tata Busana</option>
+                 <option value="Fotografi dan Videografi">Fotografi dan Videografi</option>
+                 <option value="Desain grafis">Desain grafis</option>
+                 <option value="Teknik Komputer dan Jaringan">Teknik Komputer dan Jaringan</option>
+                 <option value="Aplikasi Perkantoran">Aplikasi Perkantoran</option>
+                 <option value="Teknik Sepeda Motor">Teknik Sepeda Motor</option>
+            </select>
+         </div>
+         <div>
+            <label for="">Hobi</label>
+            <input type="checkbox" name="hobi{}" id="renang">Renang
+            <input type="checkbox" name="hobi{}" id="pingpong">Pingpong
+         </div>
+         <div>
+            <label for="">Email</label>
+            <input type="email" name="email">
+         </div>
+         <div>
+            <label for="">HP</label>
+            <input type="number" name="hp">
+         </div>
+         <div>
+            <input type="reset">
+            <input type="submit" value="Simpan" name="simpan">
+
+         </div>
+    </form>
+</body>
+</html>

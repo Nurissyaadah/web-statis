@@ -1,0 +1,17 @@
+body {
+    color: darkblue;
+    background: ghostwhite;
+}
+h1, h2 {
+    color: green;
+    background: greenyellow;
+    border: dashed 2px blue;
+    font-family: Ubuntu;
+}
+
+pre {
+    color: grey;
+    background: #ddd;
+    border: dotted 1px black;
+    fpnt-family: Courier;
+}

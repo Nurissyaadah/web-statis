@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar External CSS</title>
+    <link rel="shortcut icon" href="images/pemandangan.jpeg" type="images/x-icon">
+    <link rel="stylesheet" href="belajar .css">
+</head>
+<body>
+    <h1>External CSS</h1>
+    <p> Eksternal CSS adalah kode CSS yang ditulis terpisah dengan kode HTML Eksternal CSS ditulis di sebuah file khusus yang berekstensi .css. File eksternal CSS biasanya diletakkan setelah bagian <head> pada halaman.</p>
+    <p> Cara ini lebih sederhana dan simpel daripada menambahkan kode CSS di setiap elemen HTML yang ingin Anda atur tampilannya. </p>
+
+   <h2> Manfaat External CSS </h2>
+   <ol> 
+      <li> Ukuran file HTML akan menjadi lebih kecil dan struktur dari kode HTML jadi lebih rapi.</li>
+      <li> Loading website menjadi lebih cepat.</li>
+      <li> File CSS dapat digunakan di beberapa halaman website sekaligus. </li>
+   </ol>
+
+<h2> Kekurangan External CSS </h2>
+<p>Halaman akan menjadi berantakan, ketika file CSS gagal dipanggil oleh file HTML. Hal ini terjadi disebabkan karena koneksi internet yang lambat.</p>
+
+<h2> Contoh External CSS </h2>
+<p>  Berikut ini adalah contoh penempatan External CSS pada file HTML. Sebagai contoh saya membuat file CSS dengan nama style.css berikut isi kode style.css.</p>
+<pre>  
+p {
+    font-family: arial;
+    line-height: 2.75em;
+}
+
+i {
+    font-family: arial;
+    color: orange;
+}
+
+h2 {
+    font-family: arial;
+    color: #1B9CFC;
+}
+Untuk menggunakan file style.css dalam HTML, Anda perlu menambahkannya ke dalam file HTML. Dengan menggunakan tag <link> berikut contohnya.
+
+<link rel="stylesheet" type="text/css" href="style.css">
+Berikut ini penempatan kode dalam satu file HTML.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contoh Eksternal CSS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h2>Programming Web</h2>
+</body>
+</html>
+
+
+</body>
+</html>

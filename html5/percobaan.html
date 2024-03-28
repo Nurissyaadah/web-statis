@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data Siswa</title>
+    <link rel="shortcut icon" href="image/wa.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Formulir PPDB SMPN10 Depok</h1>
+    <img src="images/logo smpn10.png" alt="logo" width="300px">
+    <form action="#" method="get" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Data Calon Peserta Didik</legend> 
+          <div>
+              <label for="">Nama Lengkap</label>
+              <input type="text" name="nama" required autofocus>
+          </div>
+          <div>
+               <label for="">Jenis Kelamin</label>
+               <input type="radio" name="jk" value="Laki-Laki" required>Laki-Laki
+               <input type="radio" name="jk" value="Perempuan" required>Perempuan
+          </div>
+          <div>
+               <label for="">Alamat</label>
+               <textarea name="alamat" cols="50" rows="8"></textarea>
+          </div>
+
+               <label for="">Tempat, Tanggal Lahir</label>
+               <input type="text" name="tempat_lahir">
+               <input type="date" name="tanggal_lahir">
+          </div>
+          <div>
+               <label for="">Nama Ayah</label>
+               <input type="text" name="Nama Ayah">
+          </div>
+          <div>
+               <label for="">Pekerjaan</label>
+               <input type="text" name="Pekerjaan">
+          </div>
+          <div>
+               <label for="">Nama Ibu</label>
+               <input type="text" name="Nama Ibu">
+          </div>
+          <div>
+               <label for="">Pekerjaan</label>
+               <input type="text" name="Pekerjaan">
+          </div>
+          </fieldset>
+          <div>
+            <label for="">Esktrakulikuler</label>
+            <select name="Esktrakulikuler" required>
+                 <option value="">-Pilih Eskul-</option>
+                 <option value="Taekwondo">Taekwondo</option>
+                 <option value="Dance">Dance</option>
+                 <option value="Basket">Basket</option>
+                 <option value="Palang Merah Remaja">Palang Merah Remaja</option>
+            </select>
+    
+         <div>
+            <label for="">Email</label>
+            <input type="email" name="email">
+         </div>
+         <div>
+            <label for="">HP</label>
+            <input type="number" name="hp">
+         </div>
+         <div>
+            <input type="reset">
+            <input type="submit" value="Daftar" name="Daftar">
+
+         </div>
+    </form>
+</body>
+</html>
